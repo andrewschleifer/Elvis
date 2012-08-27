@@ -1,0 +1,8 @@
+
+#ifdef __OBJC__
+
+#import <Cocoa/Cocoa.h>
+#undef INFINITY
+#include "elvis.h"
+
+#endif

@@ -1,0 +1,4 @@
+
+@interface ElvisDocument : NSDocument {}
+
+@end

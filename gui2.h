@@ -65,3 +65,7 @@ extern GUI	guiscript;
 #ifdef GUI_WIN32
 extern GUI	guiwin32;
 #endif
+
+#ifdef GUI_COCOA
+extern GUI  guicocoa;
+#endif

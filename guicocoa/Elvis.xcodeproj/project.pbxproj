@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D15AC310486D014006FF6A4 /* ElvisDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* ElvisDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		EB31F70A14CBD0BE009BF3D5 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = EB31F70914CBD0BE009BF3D5 /* Credits.html */; };
+		EB31F70D14CBD20E009BF3D5 /* ElvisDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB31F70B14CBD20E009BF3D5 /* ElvisDocument.xib */; };
+		EB31F70E14CBD20E009BF3D5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB31F70C14CBD20E009BF3D5 /* MainMenu.xib */; };
+		EB31F8B914CCDA83009BF3D5 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB31F8B814CCDA83009BF3D5 /* ApplicationDelegate.m */; };
+		EBF2C0BE14DA434A00F0CC48 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03D14DA41FA00F0CC48 /* main.c */; };
+		EBF2C0C114DA438400F0CC48 /* autocmd.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C01714DA41F900F0CC48 /* autocmd.c */; };
+		EBF2C0C214DA438400F0CC48 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C01814DA41F900F0CC48 /* buffer.c */; };
+		EBF2C0C314DA438400F0CC48 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C01914DA41F900F0CC48 /* calc.c */; };
+		EBF2C0C414DA438400F0CC48 /* color.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C01A14DA41F900F0CC48 /* color.c */; };
+		EBF2C0C614DA438400F0CC48 /* cut.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C01C14DA41F900F0CC48 /* cut.c */; };
+		EBF2C0C714DA438400F0CC48 /* descr.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C01D14DA41F900F0CC48 /* descr.c */; };
+		EBF2C0C814DA438400F0CC48 /* digraph.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C01E14DA41F900F0CC48 /* digraph.c */; };
+		EBF2C0C914DA438400F0CC48 /* display.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C01F14DA41F900F0CC48 /* display.c */; };
+		EBF2C0CA14DA438400F0CC48 /* dmhex.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02014DA41F900F0CC48 /* dmhex.c */; };
+		EBF2C0CB14DA438400F0CC48 /* dmmarkup.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02114DA41F900F0CC48 /* dmmarkup.c */; };
+		EBF2C0CC14DA438400F0CC48 /* dmnormal.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02214DA41F900F0CC48 /* dmnormal.c */; };
+		EBF2C0CD14DA438400F0CC48 /* dmsyntax.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02314DA41F900F0CC48 /* dmsyntax.c */; };
+		EBF2C0CE14DA438400F0CC48 /* draw.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02414DA41F900F0CC48 /* draw.c */; };
+		EBF2C0D014DA438400F0CC48 /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02714DA41F900F0CC48 /* event.c */; };
+		EBF2C0D114DA438400F0CC48 /* ex.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02814DA41F900F0CC48 /* ex.c */; };
+		EBF2C0D214DA438400F0CC48 /* exaction.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02914DA41F900F0CC48 /* exaction.c */; };
+		EBF2C0D314DA438400F0CC48 /* exconfig.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02A14DA41F900F0CC48 /* exconfig.c */; };
+		EBF2C0D414DA438400F0CC48 /* exedit.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02B14DA41F900F0CC48 /* exedit.c */; };
+		EBF2C0D514DA438400F0CC48 /* exmake.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02C14DA41F900F0CC48 /* exmake.c */; };
+		EBF2C0D614DA438400F0CC48 /* exsubst.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02D14DA41F900F0CC48 /* exsubst.c */; };
+		EBF2C0D814DA438400F0CC48 /* fold.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C02F14DA41FA00F0CC48 /* fold.c */; };
+		EBF2C0D914DA438400F0CC48 /* ftp.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03014DA41FA00F0CC48 /* ftp.c */; };
+		EBF2C0DA14DA438400F0CC48 /* gui.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03114DA41FA00F0CC48 /* gui.c */; };
+		EBF2C0DE14DA438400F0CC48 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03514DA41FA00F0CC48 /* http.c */; };
+		EBF2C0DF14DA438400F0CC48 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03614DA41FA00F0CC48 /* input.c */; };
+		EBF2C0E014DA438400F0CC48 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03714DA41FA00F0CC48 /* io.c */; };
+		EBF2C0E114DA438400F0CC48 /* lowbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03814DA41FA00F0CC48 /* lowbuf.c */; };
+		EBF2C0E214DA438400F0CC48 /* lp.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03914DA41FA00F0CC48 /* lp.c */; };
+		EBF2C0E614DA438400F0CC48 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03E14DA41FA00F0CC48 /* map.c */; };
+		EBF2C0E714DA438400F0CC48 /* mark.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C03F14DA41FA00F0CC48 /* mark.c */; };
+		EBF2C0E814DA438400F0CC48 /* message.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04014DA41FA00F0CC48 /* message.c */; };
+		EBF2C0E914DA438400F0CC48 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04114DA41FA00F0CC48 /* misc.c */; };
+		EBF2C0EA14DA438400F0CC48 /* more.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04214DA41FA00F0CC48 /* more.c */; };
+		EBF2C0EB14DA438400F0CC48 /* move.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04314DA41FA00F0CC48 /* move.c */; };
+		EBF2C0EC14DA438400F0CC48 /* need.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04414DA41FA00F0CC48 /* need.c */; };
+		EBF2C0ED14DA438400F0CC48 /* operator.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04514DA41FA00F0CC48 /* operator.c */; };
+		EBF2C0EE14DA438400F0CC48 /* optglob.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04614DA41FA00F0CC48 /* optglob.c */; };
+		EBF2C0EF14DA438400F0CC48 /* options.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04714DA41FA00F0CC48 /* options.c */; };
+		EBF2C0F114DA438400F0CC48 /* regexp.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04914DA41FA00F0CC48 /* regexp.c */; };
+		EBF2C0F214DA438400F0CC48 /* region.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04A14DA41FA00F0CC48 /* region.c */; };
+		EBF2C0F314DA438400F0CC48 /* regsub.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04B14DA41FA00F0CC48 /* regsub.c */; };
+		EBF2C0F414DA438400F0CC48 /* safe.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04C14DA41FA00F0CC48 /* safe.c */; };
+		EBF2C0F514DA438400F0CC48 /* scan.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04D14DA41FA00F0CC48 /* scan.c */; };
+		EBF2C0F614DA438400F0CC48 /* search.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04E14DA41FA00F0CC48 /* search.c */; };
+		EBF2C0F714DA438400F0CC48 /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C04F14DA41FA00F0CC48 /* session.c */; };
+		EBF2C0F814DA438400F0CC48 /* spell.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C05014DA41FA00F0CC48 /* spell.c */; };
+		EBF2C0F914DA438400F0CC48 /* state.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C05114DA41FA00F0CC48 /* state.c */; };
+		EBF2C0FA14DA438400F0CC48 /* tag.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C05214DA41FA00F0CC48 /* tag.c */; };
+		EBF2C0FB14DA438400F0CC48 /* tagelvis.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C05314DA41FA00F0CC48 /* tagelvis.c */; };
+		EBF2C0FC14DA438400F0CC48 /* tagsrch.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C05414DA41FA00F0CC48 /* tagsrch.c */; };
+		EBF2C0FE14DA438400F0CC48 /* url.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C05614DA41FA00F0CC48 /* url.c */; };
+		EBF2C0FF14DA438400F0CC48 /* vi.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C05814DA41FA00F0CC48 /* vi.c */; };
+		EBF2C10014DA438400F0CC48 /* vicmd.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C05914DA41FA00F0CC48 /* vicmd.c */; };
+		EBF2C10114DA438400F0CC48 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C05A14DA41FA00F0CC48 /* window.c */; };
+		EBF2C10214DA438400F0CC48 /* osblock.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C0A214DA421A00F0CC48 /* osblock.c */; };
+		EBF2C10314DA438400F0CC48 /* osdir.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C0A314DA421A00F0CC48 /* osdir.c */; };
+		EBF2C10414DA438400F0CC48 /* osnet.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C0A414DA421A00F0CC48 /* osnet.c */; };
+		EBF2C10514DA438400F0CC48 /* osprg.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C0A514DA421A00F0CC48 /* osprg.c */; };
+		EBF2C10614DA438400F0CC48 /* ostext.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C0A614DA421A00F0CC48 /* ostext.c */; };
+		EBF2C10714DA438400F0CC48 /* tcaphelp.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C0A714DA421A00F0CC48 /* tcaphelp.c */; };
+		EBF2C13B14DA477200F0CC48 /* lpescape.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C13814DA477200F0CC48 /* lpescape.c */; };
+		EBF2C13C14DA477200F0CC48 /* lpovrtyp.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C13914DA477200F0CC48 /* lpovrtyp.c */; };
+		EBF2C13D14DA477200F0CC48 /* lpps.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C13A14DA477200F0CC48 /* lpps.c */; };
+		EBF2C14914DA47B600F0CC48 /* guicurs.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C14614DA47B600F0CC48 /* guicurs.c */; };
+		EBF2C14A14DA47B600F0CC48 /* guiopen.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C14714DA47B600F0CC48 /* guiopen.c */; };
+		EBF2C14B14DA47B600F0CC48 /* guitcap.c in Sources */ = {isa = PBXBuildFile; fileRef = EBF2C14814DA47B600F0CC48 /* guitcap.c */; };
+		EBF2C15A14DA495A00F0CC48 /* libncurses.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF2C15914DA495A00F0CC48 /* libncurses.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2564AD2C0F5327BB00F57823 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* ElvisDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElvisDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* ElvisDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElvisDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Elvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB31F70914CBD0BE009BF3D5 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		EB31F70B14CBD20E009BF3D5 /* ElvisDocument.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElvisDocument.xib; sourceTree = "<group>"; };
+		EB31F70C14CBD20E009BF3D5 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		EB31F8B714CCDA83009BF3D5 /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		EB31F8B814CCDA83009BF3D5 /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		EBF2C01714DA41F900F0CC48 /* autocmd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = autocmd.c; path = ../autocmd.c; sourceTree = SOURCE_ROOT; };
+		EBF2C01814DA41F900F0CC48 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = ../buffer.c; sourceTree = SOURCE_ROOT; };
+		EBF2C01914DA41F900F0CC48 /* calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = calc.c; path = ../calc.c; sourceTree = SOURCE_ROOT; };
+		EBF2C01A14DA41F900F0CC48 /* color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = color.c; path = ../color.c; sourceTree = SOURCE_ROOT; };
+		EBF2C01C14DA41F900F0CC48 /* cut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cut.c; path = ../cut.c; sourceTree = SOURCE_ROOT; };
+		EBF2C01D14DA41F900F0CC48 /* descr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = descr.c; path = ../descr.c; sourceTree = SOURCE_ROOT; };
+		EBF2C01E14DA41F900F0CC48 /* digraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = digraph.c; path = ../digraph.c; sourceTree = SOURCE_ROOT; };
+		EBF2C01F14DA41F900F0CC48 /* display.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = display.c; path = ../display.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02014DA41F900F0CC48 /* dmhex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dmhex.c; path = ../dmhex.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02114DA41F900F0CC48 /* dmmarkup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dmmarkup.c; path = ../dmmarkup.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02214DA41F900F0CC48 /* dmnormal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dmnormal.c; path = ../dmnormal.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02314DA41F900F0CC48 /* dmsyntax.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dmsyntax.c; path = ../dmsyntax.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02414DA41F900F0CC48 /* draw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = draw.c; path = ../draw.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02714DA41F900F0CC48 /* event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = event.c; path = ../event.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02814DA41F900F0CC48 /* ex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ex.c; path = ../ex.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02914DA41F900F0CC48 /* exaction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = exaction.c; path = ../exaction.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02A14DA41F900F0CC48 /* exconfig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = exconfig.c; path = ../exconfig.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02B14DA41F900F0CC48 /* exedit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = exedit.c; path = ../exedit.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02C14DA41F900F0CC48 /* exmake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = exmake.c; path = ../exmake.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02D14DA41F900F0CC48 /* exsubst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = exsubst.c; path = ../exsubst.c; sourceTree = SOURCE_ROOT; };
+		EBF2C02F14DA41FA00F0CC48 /* fold.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fold.c; path = ../fold.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03014DA41FA00F0CC48 /* ftp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ftp.c; path = ../ftp.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03114DA41FA00F0CC48 /* gui.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gui.c; path = ../gui.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03514DA41FA00F0CC48 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http.c; path = ../http.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03614DA41FA00F0CC48 /* input.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = input.c; path = ../input.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03714DA41FA00F0CC48 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = io.c; path = ../io.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03814DA41FA00F0CC48 /* lowbuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lowbuf.c; path = ../lowbuf.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03914DA41FA00F0CC48 /* lp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lp.c; path = ../lp.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03D14DA41FA00F0CC48 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../main.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03E14DA41FA00F0CC48 /* map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = map.c; path = ../map.c; sourceTree = SOURCE_ROOT; };
+		EBF2C03F14DA41FA00F0CC48 /* mark.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mark.c; path = ../mark.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04014DA41FA00F0CC48 /* message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = message.c; path = ../message.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04114DA41FA00F0CC48 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = misc.c; path = ../misc.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04214DA41FA00F0CC48 /* more.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = more.c; path = ../more.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04314DA41FA00F0CC48 /* move.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = move.c; path = ../move.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04414DA41FA00F0CC48 /* need.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = need.c; path = ../need.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04514DA41FA00F0CC48 /* operator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = operator.c; path = ../operator.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04614DA41FA00F0CC48 /* optglob.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = optglob.c; path = ../optglob.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04714DA41FA00F0CC48 /* options.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = options.c; path = ../options.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04914DA41FA00F0CC48 /* regexp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = regexp.c; path = ../regexp.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04A14DA41FA00F0CC48 /* region.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = region.c; path = ../region.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04B14DA41FA00F0CC48 /* regsub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = regsub.c; path = ../regsub.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04C14DA41FA00F0CC48 /* safe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = safe.c; path = ../safe.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04D14DA41FA00F0CC48 /* scan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scan.c; path = ../scan.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04E14DA41FA00F0CC48 /* search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = search.c; path = ../search.c; sourceTree = SOURCE_ROOT; };
+		EBF2C04F14DA41FA00F0CC48 /* session.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = session.c; path = ../session.c; sourceTree = SOURCE_ROOT; };
+		EBF2C05014DA41FA00F0CC48 /* spell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spell.c; path = ../spell.c; sourceTree = SOURCE_ROOT; };
+		EBF2C05114DA41FA00F0CC48 /* state.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = state.c; path = ../state.c; sourceTree = SOURCE_ROOT; };
+		EBF2C05214DA41FA00F0CC48 /* tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tag.c; path = ../tag.c; sourceTree = SOURCE_ROOT; };
+		EBF2C05314DA41FA00F0CC48 /* tagelvis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tagelvis.c; path = ../tagelvis.c; sourceTree = SOURCE_ROOT; };
+		EBF2C05414DA41FA00F0CC48 /* tagsrch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tagsrch.c; path = ../tagsrch.c; sourceTree = SOURCE_ROOT; };
+		EBF2C05614DA41FA00F0CC48 /* url.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = url.c; path = ../url.c; sourceTree = SOURCE_ROOT; };
+		EBF2C05814DA41FA00F0CC48 /* vi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vi.c; path = ../vi.c; sourceTree = SOURCE_ROOT; };
+		EBF2C05914DA41FA00F0CC48 /* vicmd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vicmd.c; path = ../vicmd.c; sourceTree = SOURCE_ROOT; };
+		EBF2C05A14DA41FA00F0CC48 /* window.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = window.c; path = ../window.c; sourceTree = SOURCE_ROOT; };
+		EBF2C0A214DA421A00F0CC48 /* osblock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = osblock.c; path = ../osunix/osblock.c; sourceTree = SOURCE_ROOT; };
+		EBF2C0A314DA421A00F0CC48 /* osdir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = osdir.c; path = ../osunix/osdir.c; sourceTree = SOURCE_ROOT; };
+		EBF2C0A414DA421A00F0CC48 /* osnet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = osnet.c; path = ../osunix/osnet.c; sourceTree = SOURCE_ROOT; };
+		EBF2C0A514DA421A00F0CC48 /* osprg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = osprg.c; path = ../osunix/osprg.c; sourceTree = SOURCE_ROOT; };
+		EBF2C0A614DA421A00F0CC48 /* ostext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ostext.c; path = ../osunix/ostext.c; sourceTree = SOURCE_ROOT; };
+		EBF2C0A714DA421A00F0CC48 /* tcaphelp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tcaphelp.c; path = ../osunix/tcaphelp.c; sourceTree = SOURCE_ROOT; };
+		EBF2C13814DA477200F0CC48 /* lpescape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpescape.c; path = ../lpescape.c; sourceTree = SOURCE_ROOT; };
+		EBF2C13914DA477200F0CC48 /* lpovrtyp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpovrtyp.c; path = ../lpovrtyp.c; sourceTree = SOURCE_ROOT; };
+		EBF2C13A14DA477200F0CC48 /* lpps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lpps.c; path = ../lpps.c; sourceTree = SOURCE_ROOT; };
+		EBF2C14614DA47B600F0CC48 /* guicurs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = guicurs.c; path = ../guicurs.c; sourceTree = SOURCE_ROOT; };
+		EBF2C14714DA47B600F0CC48 /* guiopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = guiopen.c; path = ../guiopen.c; sourceTree = SOURCE_ROOT; };
+		EBF2C14814DA47B600F0CC48 /* guitcap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = guitcap.c; path = ../guitcap.c; sourceTree = SOURCE_ROOT; };
+		EBF2C15914DA495A00F0CC48 /* libncurses.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libncurses.dylib; path = usr/lib/libncurses.dylib; sourceTree = SDKROOT; };
+		EBF2C19714DA514F00F0CC48 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		EBF2C19E14DA517C00F0CC48 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				EBF2C15A14DA495A00F0CC48 /* libncurses.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Elvis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Elvis */ = {
+			isa = PBXGroup;
+			children = (
+				EB31F76914CC7204009BF3D5 /* Backend */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = Elvis;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* ElvisDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* ElvisDocument.m */,
+				EB31F8B714CCDA83009BF3D5 /* ApplicationDelegate.h */,
+				EB31F8B814CCDA83009BF3D5 /* ApplicationDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2C19714DA514F00F0CC48 /* config.h */,
+				2564AD2C0F5327BB00F57823 /* Prefix.pch */,
+				EBF2C19E14DA517C00F0CC48 /* main.h */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB31F70914CBD0BE009BF3D5 /* Credits.html */,
+				EB31F70B14CBD20E009BF3D5 /* ElvisDocument.xib */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				EB31F70C14CBD20E009BF3D5 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				EBF2C15914DA495A00F0CC48 /* libncurses.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB31F76914CC7204009BF3D5 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2C14214DA479300F0CC48 /* guisrc */,
+				EBF2C13314DA473F00F0CC48 /* lpsrc */,
+				EBF2C0B714DA429900F0CC48 /* ossrc */,
+				EBF2C01714DA41F900F0CC48 /* autocmd.c */,
+				EBF2C01814DA41F900F0CC48 /* buffer.c */,
+				EBF2C01914DA41F900F0CC48 /* calc.c */,
+				EBF2C01A14DA41F900F0CC48 /* color.c */,
+				EBF2C01C14DA41F900F0CC48 /* cut.c */,
+				EBF2C01D14DA41F900F0CC48 /* descr.c */,
+				EBF2C01E14DA41F900F0CC48 /* digraph.c */,
+				EBF2C01F14DA41F900F0CC48 /* display.c */,
+				EBF2C02014DA41F900F0CC48 /* dmhex.c */,
+				EBF2C02114DA41F900F0CC48 /* dmmarkup.c */,
+				EBF2C02214DA41F900F0CC48 /* dmnormal.c */,
+				EBF2C02314DA41F900F0CC48 /* dmsyntax.c */,
+				EBF2C02414DA41F900F0CC48 /* draw.c */,
+				EBF2C02714DA41F900F0CC48 /* event.c */,
+				EBF2C02814DA41F900F0CC48 /* ex.c */,
+				EBF2C02914DA41F900F0CC48 /* exaction.c */,
+				EBF2C02A14DA41F900F0CC48 /* exconfig.c */,
+				EBF2C02B14DA41F900F0CC48 /* exedit.c */,
+				EBF2C02C14DA41F900F0CC48 /* exmake.c */,
+				EBF2C02D14DA41F900F0CC48 /* exsubst.c */,
+				EBF2C02F14DA41FA00F0CC48 /* fold.c */,
+				EBF2C03014DA41FA00F0CC48 /* ftp.c */,
+				EBF2C03114DA41FA00F0CC48 /* gui.c */,
+				EBF2C03514DA41FA00F0CC48 /* http.c */,
+				EBF2C03614DA41FA00F0CC48 /* input.c */,
+				EBF2C03714DA41FA00F0CC48 /* io.c */,
+				EBF2C03814DA41FA00F0CC48 /* lowbuf.c */,
+				EBF2C03914DA41FA00F0CC48 /* lp.c */,
+				EBF2C03D14DA41FA00F0CC48 /* main.c */,
+				EBF2C03E14DA41FA00F0CC48 /* map.c */,
+				EBF2C03F14DA41FA00F0CC48 /* mark.c */,
+				EBF2C04014DA41FA00F0CC48 /* message.c */,
+				EBF2C04114DA41FA00F0CC48 /* misc.c */,
+				EBF2C04214DA41FA00F0CC48 /* more.c */,
+				EBF2C04314DA41FA00F0CC48 /* move.c */,
+				EBF2C04414DA41FA00F0CC48 /* need.c */,
+				EBF2C04514DA41FA00F0CC48 /* operator.c */,
+				EBF2C04614DA41FA00F0CC48 /* optglob.c */,
+				EBF2C04714DA41FA00F0CC48 /* options.c */,
+				EBF2C04914DA41FA00F0CC48 /* regexp.c */,
+				EBF2C04A14DA41FA00F0CC48 /* region.c */,
+				EBF2C04B14DA41FA00F0CC48 /* regsub.c */,
+				EBF2C04C14DA41FA00F0CC48 /* safe.c */,
+				EBF2C04D14DA41FA00F0CC48 /* scan.c */,
+				EBF2C04E14DA41FA00F0CC48 /* search.c */,
+				EBF2C04F14DA41FA00F0CC48 /* session.c */,
+				EBF2C05014DA41FA00F0CC48 /* spell.c */,
+				EBF2C05114DA41FA00F0CC48 /* state.c */,
+				EBF2C05214DA41FA00F0CC48 /* tag.c */,
+				EBF2C05314DA41FA00F0CC48 /* tagelvis.c */,
+				EBF2C05414DA41FA00F0CC48 /* tagsrch.c */,
+				EBF2C05614DA41FA00F0CC48 /* url.c */,
+				EBF2C05814DA41FA00F0CC48 /* vi.c */,
+				EBF2C05914DA41FA00F0CC48 /* vicmd.c */,
+				EBF2C05A14DA41FA00F0CC48 /* window.c */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		EBF2C0B714DA429900F0CC48 /* ossrc */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2C0A214DA421A00F0CC48 /* osblock.c */,
+				EBF2C0A314DA421A00F0CC48 /* osdir.c */,
+				EBF2C0A414DA421A00F0CC48 /* osnet.c */,
+				EBF2C0A514DA421A00F0CC48 /* osprg.c */,
+				EBF2C0A614DA421A00F0CC48 /* ostext.c */,
+				EBF2C0A714DA421A00F0CC48 /* tcaphelp.c */,
+			);
+			name = ossrc;
+			sourceTree = "<group>";
+		};
+		EBF2C13314DA473F00F0CC48 /* lpsrc */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2C13814DA477200F0CC48 /* lpescape.c */,
+				EBF2C13914DA477200F0CC48 /* lpovrtyp.c */,
+				EBF2C13A14DA477200F0CC48 /* lpps.c */,
+			);
+			name = lpsrc;
+			sourceTree = "<group>";
+		};
+		EBF2C14214DA479300F0CC48 /* guisrc */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2C14614DA47B600F0CC48 /* guicurs.c */,
+				EBF2C14714DA47B600F0CC48 /* guiopen.c */,
+				EBF2C14814DA47B600F0CC48 /* guitcap.c */,
+			);
+			name = guisrc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Elvis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Elvis" */;
+			buildPhases = (
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elvis;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Elvis;
+			productReference = 8D15AC370486D014006FF6A4 /* Elvis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Elvis" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Elvis */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Elvis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB31F70A14CBD0BE009BF3D5 /* Credits.html in Resources */,
+				EB31F70D14CBD20E009BF3D5 /* ElvisDocument.xib in Resources */,
+				EB31F70E14CBD20E009BF3D5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF2C0C114DA438400F0CC48 /* autocmd.c in Sources */,
+				EBF2C0C214DA438400F0CC48 /* buffer.c in Sources */,
+				EBF2C0C314DA438400F0CC48 /* calc.c in Sources */,
+				EBF2C0C414DA438400F0CC48 /* color.c in Sources */,
+				EBF2C0C614DA438400F0CC48 /* cut.c in Sources */,
+				EBF2C0C714DA438400F0CC48 /* descr.c in Sources */,
+				EBF2C0C814DA438400F0CC48 /* digraph.c in Sources */,
+				EBF2C0C914DA438400F0CC48 /* display.c in Sources */,
+				EBF2C0CA14DA438400F0CC48 /* dmhex.c in Sources */,
+				EBF2C0CB14DA438400F0CC48 /* dmmarkup.c in Sources */,
+				EBF2C0CC14DA438400F0CC48 /* dmnormal.c in Sources */,
+				EBF2C0CD14DA438400F0CC48 /* dmsyntax.c in Sources */,
+				EBF2C0CE14DA438400F0CC48 /* draw.c in Sources */,
+				EBF2C0D014DA438400F0CC48 /* event.c in Sources */,
+				EBF2C0D114DA438400F0CC48 /* ex.c in Sources */,
+				EBF2C0D214DA438400F0CC48 /* exaction.c in Sources */,
+				EBF2C0D314DA438400F0CC48 /* exconfig.c in Sources */,
+				EBF2C0D414DA438400F0CC48 /* exedit.c in Sources */,
+				EBF2C0D514DA438400F0CC48 /* exmake.c in Sources */,
+				EBF2C0D614DA438400F0CC48 /* exsubst.c in Sources */,
+				EBF2C0D814DA438400F0CC48 /* fold.c in Sources */,
+				EBF2C0D914DA438400F0CC48 /* ftp.c in Sources */,
+				EBF2C0DA14DA438400F0CC48 /* gui.c in Sources */,
+				EBF2C0DE14DA438400F0CC48 /* http.c in Sources */,
+				EBF2C0DF14DA438400F0CC48 /* input.c in Sources */,
+				EBF2C0E014DA438400F0CC48 /* io.c in Sources */,
+				EBF2C0E114DA438400F0CC48 /* lowbuf.c in Sources */,
+				EBF2C0E214DA438400F0CC48 /* lp.c in Sources */,
+				EBF2C0BE14DA434A00F0CC48 /* main.c in Sources */,
+				EBF2C0E614DA438400F0CC48 /* map.c in Sources */,
+				EBF2C0E714DA438400F0CC48 /* mark.c in Sources */,
+				EBF2C0E814DA438400F0CC48 /* message.c in Sources */,
+				EBF2C0E914DA438400F0CC48 /* misc.c in Sources */,
+				EBF2C0EA14DA438400F0CC48 /* more.c in Sources */,
+				EBF2C0EB14DA438400F0CC48 /* move.c in Sources */,
+				EBF2C0EC14DA438400F0CC48 /* need.c in Sources */,
+				EBF2C0ED14DA438400F0CC48 /* operator.c in Sources */,
+				EBF2C0EE14DA438400F0CC48 /* optglob.c in Sources */,
+				EBF2C0EF14DA438400F0CC48 /* options.c in Sources */,
+				EBF2C0F114DA438400F0CC48 /* regexp.c in Sources */,
+				EBF2C0F214DA438400F0CC48 /* region.c in Sources */,
+				EBF2C0F314DA438400F0CC48 /* regsub.c in Sources */,
+				EBF2C0F414DA438400F0CC48 /* safe.c in Sources */,
+				EBF2C0F514DA438400F0CC48 /* scan.c in Sources */,
+				EBF2C0F614DA438400F0CC48 /* search.c in Sources */,
+				EBF2C0F714DA438400F0CC48 /* session.c in Sources */,
+				EBF2C0F814DA438400F0CC48 /* spell.c in Sources */,
+				EBF2C0F914DA438400F0CC48 /* state.c in Sources */,
+				EBF2C0FA14DA438400F0CC48 /* tag.c in Sources */,
+				EBF2C0FB14DA438400F0CC48 /* tagelvis.c in Sources */,
+				EBF2C0FC14DA438400F0CC48 /* tagsrch.c in Sources */,
+				EBF2C0FE14DA438400F0CC48 /* url.c in Sources */,
+				EBF2C0FF14DA438400F0CC48 /* vi.c in Sources */,
+				EBF2C10014DA438400F0CC48 /* vicmd.c in Sources */,
+				EBF2C10114DA438400F0CC48 /* window.c in Sources */,
+				EBF2C10214DA438400F0CC48 /* osblock.c in Sources */,
+				EBF2C10314DA438400F0CC48 /* osdir.c in Sources */,
+				EBF2C10414DA438400F0CC48 /* osnet.c in Sources */,
+				EBF2C10514DA438400F0CC48 /* osprg.c in Sources */,
+				EBF2C10614DA438400F0CC48 /* ostext.c in Sources */,
+				EBF2C10714DA438400F0CC48 /* tcaphelp.c in Sources */,
+				EBF2C13B14DA477200F0CC48 /* lpescape.c in Sources */,
+				EBF2C13C14DA477200F0CC48 /* lpovrtyp.c in Sources */,
+				EBF2C13D14DA477200F0CC48 /* lpps.c in Sources */,
+				EBF2C14914DA47B600F0CC48 /* guicurs.c in Sources */,
+				EBF2C14A14DA47B600F0CC48 /* guiopen.c in Sources */,
+				EBF2C14B14DA47B600F0CC48 /* guitcap.c in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				8D15AC310486D014006FF6A4 /* ElvisDocument.m in Sources */,
+				EB31F8B914CCDA83009BF3D5 /* ApplicationDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = GUI_COCOA;
+				HEADER_SEARCH_PATHS = (
+					../osunix/,
+					../,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Elvis;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = GUI_COCOA;
+				HEADER_SEARCH_PATHS = (
+					../osunix/,
+					../,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Elvis;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Elvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Elvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

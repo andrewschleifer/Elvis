@@ -32,6 +32,10 @@ static GUI *allguis[] =
 	&guiwin32
 #endif
 
+#ifdef GUI_COCOA
+	&guicocoa,
+#endif
+
 #ifdef GUI_X11
 	&guix11,
 #endif
